@@ -1,0 +1,13 @@
+body {
+	background-image: url("/Users/user/Desktop/Web_Programming/IMG/Plants_Vs_Zombies/BG.jpg");
+	background-size: 100% 800px;
+	background-repeat: no-repeat;
+	overflow-y: hidden;
+}
+.container {
+	margin: 0 auto;
+	float: none;
+	width: 600px;
+	height: 600px;
+	background-color: #006699;
+}

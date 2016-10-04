@@ -1,0 +1,119 @@
+
+body {
+}
+.container > .Profile_Body > .about_me {
+	display: none;
+	width: 100%;
+}
+.container > .Profile_Body > .portfolio {
+	display: none;
+	width: 100%;
+}
+.container > .Profile_Body > .contacts { 
+	display: none;
+	width: 100%;
+}
+.container > .Profile_Body > .contacts > div { 
+	display: inline-block;
+}
+.container > .Profile_Body > .portfolio > div {
+	display: inline-block;
+	margin: 10px 10px 10px 0px;
+	background-color: #006699;
+	width: 200px;
+	height: 250px;
+}
+.container > .Profile_Body > .portfolio > div > a > img {
+	display: inline-block;
+	background-color: #000033;
+	width: 150px;
+	height: 150px;
+}
+.container > .Profile_Body > .portfolio > div:last-child {
+	margin-right: 0px;
+}
+.container > .Profile_Body > .about_me > div {
+	display: inline-block;
+}
+.container {
+	margin: 0 auto;
+	float: none;
+	width: 1200px;
+	height: 1000px;
+	background-color: #000033;
+}
+.Profile_Head > #Profile_img {
+     width:200px;
+     height:200px;
+	 border-radius: 50%;
+}
+.container > #entitle {
+	text-align: center;	
+}
+#entitle, .container {
+	color: #ffffff;
+}
+#entitle {
+	font-family: "Lora-Regular";
+}
+#name_surname {
+	left: 20px;
+	position: relative;
+	font-size: 20px;
+	font-family: "Lora-Bold";
+}
+.container > div {
+	display: inline-block;
+	position: relative;
+}
+.Profile_Head {
+	top: 50px;
+	left: 10px;
+	position: relative;
+}
+.Profile_Body {
+	top: -10px;
+	left: 30px;
+}
+.container > .Profile_Body > div, button {
+	display: block;
+	font-size: 20px;
+	font-family: "Lora-BoldItalic", Arial, sans-serif;
+	background-color: #000033;
+	padding: 5px 5px;
+	color: white;
+	text-align: center;
+	border: 1px gray solid;
+}
+.Profile_Body > div {
+	width: 108px;
+}
+.Profile_Body > button {
+	width: 120px;
+	opacity: 0.5;
+}
+.container > .Profile_Body > button:hover {
+	background-color: #000033;
+	opacity: 1;
+}	
+@font-face {
+    font-family: "Lora-Bold";
+    src: url('lora/Lora-Bold.ttf') format("truetype");
+}
+@font-face {
+    font-family: "Lora-BoldItalic";
+    src: url('lora/Lora-BoldItalic.ttf') format("truetype");
+}
+@font-face {
+    font-family: "Lora-Italic";
+    src: url('lora/Lora-Italic.ttf') format("truetype");
+}
+@font-face {
+    font-family: "Lora-Regular";
+    src: url('lora/Lora-Regular.ttf') format("truetype");
+}
+@media screen and (min-width: 1000px) {
+	.container {
+		background-color: #006699;
+	}
+}
